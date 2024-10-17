@@ -1,5 +1,15 @@
+import subprocess
+import sys
+
+# Ensure the 'faker' package is installed
+try:
+    import faker
+except ImportError:
+    print("Faker not found. Installing...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "faker"])
+    import faker  # Import again after installation
+
 import pandas as pd
-import faker
 import random
 import uuid
 from datetime import datetime, timedelta
