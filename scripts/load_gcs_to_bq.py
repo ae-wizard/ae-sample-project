@@ -112,7 +112,7 @@ def main():
                 bigquery.SchemaField("spend_type", "STRING"),
                 bigquery.SchemaField("attributed_channel", "STRING"),
                 bigquery.SchemaField("attributed_subchannel", "STRING"),
-                bigquery.SchemaField("session_metadata", "STRING"),
+                bigquery.SchemaField("session_metadata", "JSON"),
             ],
         },
         {
