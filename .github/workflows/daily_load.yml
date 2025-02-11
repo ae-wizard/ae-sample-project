@@ -24,7 +24,7 @@ jobs:
       - name: Authenticate to GCP
         run: |
           # Decode the base64 secret into sa.json
-          echo "${{ secrets.GCP_SA_KEY_B64 }}" | base64 --decode > sa.json
+          echo "${{ secrets.GCP_SA_KEY }}" | base64 --decode > sa.json
           head -n 5 sa.json  # Debug: Verify that sa.json is valid (remove this in production)
       
           # Set the environment variable so Python can find credentials
