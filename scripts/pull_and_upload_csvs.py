@@ -1,31 +1,29 @@
 import requests
-import os
 from google.cloud import storage
+import os
 
 def main():
-    # The raw URLs of your CSVs:
+    # Example URLs for your CSV files in another repo "ae-sample-project"
     base_url = "https://raw.githubusercontent.com/ae-wizard/ae-sample-project/main/models/"
-    files = ["registrations.csv", "transactions.csv", "sessions.csv"]
+    csv_files = ["registrations.csv", "transactions.csv", "sessions.csv"]
 
-    # GCS bucket name
     bucket_name = "ae-class-raw"
 
-    # Initialize GCS client (assumes creds are set via env var or attached service account)
-    storage_client = storage.Client()
-    bucket = storage_client.bucket(bucket_name)
+    # Instantiate GCS client (auth comes from the service account JSON you'll provide via GitHub Actions)
+    client = storage.Client()
+    bucket = client.bucket(bucket_name)
 
-    for filename in files:
-        url = base_url + filename
-
-        print(f"Downloading {url} ...")
+    for file in csv_files:
+        url = base_url + file
+        print(f"Downloading {url}")
         response = requests.get(url)
-        response.raise_for_status()  # raises an error if not 200
+        response.raise_for_status()
 
-        print(f"Uploading {filename} to gs://{bucket_name}/{filename} ...")
-        blob = bucket.blob(filename)
+        print(f"Uploading {file} to gs://{bucket_name}/{file}")
+        blob = bucket.blob(file)
         blob.upload_from_string(response.content, content_type="text/csv")
 
-    print("Done uploading all CSVs to GCS.")
+    print("All CSVs uploaded successfully!")
 
 if __name__ == "__main__":
     main()
