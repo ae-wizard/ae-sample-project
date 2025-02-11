@@ -36,3 +36,6 @@ jobs:
 
       - name: Run the Python script
         run: python scripts/pull_and_upload_csvs.py
+
+      - name: Load GCS data into BigQuery
+        run: python scripts/load_gcs_to_bq.py
