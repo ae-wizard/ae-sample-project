@@ -23,9 +23,9 @@ jobs:
 
       - name: Authenticate to GCP
         run: |
-          # Replace literal \n with actual newline characters and write to sa.json
-          echo "${{ secrets.GCP_SA_KEY }}" | sed 's/\\n/\n/g' > sa.json
-          # (Optional) Print the first few lines for debugging (remove before sharing logs)
+          # Decode the base64 secret back into proper JSON and write it to sa.json
+          echo "${{ secrets.GCP_SA_KEY_B64 }}" | base64 --decode > sa.json
+          # (Optional) Debug: print the first few lines (remove this in production)
           head -n 5 sa.json
           gcloud auth activate-service-account --key-file=sa.json
           gcloud config set project ae-class-project
