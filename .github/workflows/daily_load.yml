@@ -19,7 +19,7 @@ jobs:
           python-version: "3.9"
 
       - name: Install dependencies
-        run: pip install requests google-cloud-storage
+        run: pip install requests google-cloud-storage google-cloud-bigquery
 
       - name: Authenticate to GCP
         run: |
