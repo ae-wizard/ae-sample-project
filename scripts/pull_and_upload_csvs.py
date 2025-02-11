@@ -3,15 +3,19 @@ from google.cloud import storage
 import os
 
 def main():
+    # Ensure credentials are set
+    if not os.getenv("GOOGLE_APPLICATION_CREDENTIALS"):
+        raise ValueError("GOOGLE_APPLICATION_CREDENTIALS environment variable is not set.")
+
     # Base URL for the CSV files from the ae-sample-project repository
     base_url = "https://raw.githubusercontent.com/ae-wizard/ae-sample-project/main/models/"
     csv_files = ["registrations.csv", "transactions.csv", "sessions.csv"]
 
-    # Name of the GCS bucket (without the gs:// prefix when using the API)
+    # Name of the GCS bucket
     bucket_name = "ae-class-raw"
 
-    # Instantiate the GCS client (the credentials are provided via GitHub Actions)
-    client = storage.Client()
+    # Initialize the GCS client using explicit credentials
+    client = storage.Client.from_service_account_json(os.getenv("GOOGLE_APPLICATION_CREDENTIALS"))
     bucket = client.bucket(bucket_name)
 
     for file in csv_files:
