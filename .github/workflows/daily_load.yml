@@ -23,8 +23,10 @@ jobs:
 
       - name: Authenticate to GCP
         run: |
-          # Use '%b' to interpret escape sequences (like \n) so that the JSON is properly formatted
-          printf '%b' "${{ secrets.GCP_SA_KEY }}" > sa.json
+          # Replace literal \n with actual newline characters and write to sa.json
+          echo "${{ secrets.GCP_SA_KEY }}" | sed 's/\\n/\n/g' > sa.json
+          # (Optional) Print the first few lines for debugging (remove before sharing logs)
+          head -n 5 sa.json
           gcloud auth activate-service-account --key-file=sa.json
           gcloud config set project ae-class-project
 
