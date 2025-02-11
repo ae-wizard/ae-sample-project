@@ -1,0 +1,32 @@
+name: Daily Load to GCP
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Runs every day at 2 AM UTC
+  workflow_dispatch:     # Allows manual triggering from GitHub Actions UI
+
+jobs:
+  load-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install requests google-cloud-storage
+
+      - name: Authenticate to GCP
+        # We write the JSON from the secret to a file and use gcloud auth
+        run: |
+          echo "${{ secrets.GCP_SA_KEY }}" > sa.json
+          gcloud auth activate-service-account --key-file=sa.json
+          gcloud config set project my-dbt-class-project
+
+      - name: Run the Python script
+        run: python scripts/pull_and_upload_csvs.py
