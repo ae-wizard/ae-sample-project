@@ -23,10 +23,14 @@ jobs:
 
       - name: Authenticate to GCP
         run: |
-          # Decode the base64 secret back into proper JSON and write it to sa.json
-          echo "${{ secrets.GCP_SA_KEY }}" | base64 --decode > sa.json
-          # (Optional) Debug: print the first few lines (remove this in production)
-          head -n 5 sa.json
+          # Decode the base64 secret into sa.json
+          echo "${{ secrets.GCP_SA_KEY_B64 }}" | base64 --decode > sa.json
+          head -n 5 sa.json  # Debug: Verify that sa.json is valid (remove this in production)
+      
+          # Set the environment variable so Python can find credentials
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$PWD/sa.json" >> $GITHUB_ENV
+      
+          # Authenticate using gcloud
           gcloud auth activate-service-account --key-file=sa.json
           gcloud config set project ae-class-project
 
