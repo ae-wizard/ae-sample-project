@@ -3,13 +3,14 @@ from google.cloud import storage
 import os
 
 def main():
-    # Example URLs for your CSV files in another repo "ae-sample-project"
+    # Base URL for the CSV files from the ae-sample-project repository
     base_url = "https://raw.githubusercontent.com/ae-wizard/ae-sample-project/main/models/"
     csv_files = ["registrations.csv", "transactions.csv", "sessions.csv"]
 
+    # Name of the GCS bucket (without the gs:// prefix when using the API)
     bucket_name = "ae-class-raw"
 
-    # Instantiate GCS client (auth comes from the service account JSON you'll provide via GitHub Actions)
+    # Instantiate the GCS client (the credentials are provided via GitHub Actions)
     client = storage.Client()
     bucket = client.bucket(bucket_name)
 
