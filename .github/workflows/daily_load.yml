@@ -23,10 +23,10 @@ jobs:
 
       - name: Authenticate to GCP
         run: |
-          # Write the service account JSON to sa.json using printf
-          printf '%s' "${{ secrets.GCP_SA_KEY }}" > sa.json
+          # Use '%b' to interpret escape sequences (like \n) so that the JSON is properly formatted
+          printf '%b' "${{ secrets.GCP_SA_KEY }}" > sa.json
           gcloud auth activate-service-account --key-file=sa.json
-          gcloud config set project my-dbt-class-project
+          gcloud config set project ae-class-project
 
       - name: Run the Python script
         run: python scripts/pull_and_upload_csvs.py
