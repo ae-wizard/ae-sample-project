@@ -22,9 +22,9 @@ jobs:
         run: pip install requests google-cloud-storage
 
       - name: Authenticate to GCP
-        # We write the JSON from the secret to a file and use gcloud auth
         run: |
-          echo "${{ secrets.GCP_SA_KEY }}" > sa.json
+          # Write the service account JSON to sa.json using printf
+          printf '%s' "${{ secrets.GCP_SA_KEY }}" > sa.json
           gcloud auth activate-service-account --key-file=sa.json
           gcloud config set project my-dbt-class-project
 
