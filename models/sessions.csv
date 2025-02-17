@@ -1,4 +1,4 @@
-visit_id,visit_start_time_et,visit_end_time_et,device_type,browser,pageview_count,spend_type,attributed_channel,attributed_subchannel,session_metadata
+visit_id,visit_start_time,visit_end_time,device_type,browser,pageview_count,spend_type,attributed_channel,attributed_subchannel,session_metadata
 40cd64b6-cf83-4791-9490-3bc1e85b600e,2021-10-16 9:26:29,2021-10-16 9:54:29,desktop,safari,4,paid,paid search,google,"{""visit_id"": ""40cd64b6-cf83-4791-9490-3bc1e85b600e"", ""utm_campaign"": ""campaign_8f46174a-f187-40f5-bbb5-d2d6619da9bf"", ""utm_keyword"": ""google_keyword_5""}"
 58aec636-16bd-48e7-85be-3920be5b7294,2023-03-19 7:12:54,2023-03-19 7:27:54,mobile,mobile chrome,8,unpaid,organic search,google,
 16393b34-7c73-4a60-869d-4e571a0bc71a,2023-09-30 21:13:07,2023-09-30 21:20:07,desktop,edge,8,unpaid,organic search,yahoo,

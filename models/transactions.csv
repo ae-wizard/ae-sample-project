@@ -1,4 +1,4 @@
-order_id,visit_id,user_id,order_created_at_et,location_id,shipping_carrier,shipping_method,estimated_delivery_date,delivered_at_et
+order_id,visit_id,user_id,order_created_at,location_id,shipping_carrier,shipping_method,estimated_delivery_date,delivered_at
 087a5767-ba3e-49f5-8b5e-055662cef538,403fd90a-54ff-4c0e-a793-282a6df9f251,f1ffe1c8-ddee-440b-bb79-ae4c4cdf8430,2023-07-05 01:39:19,a5a5b88b-a963-4a90-bb50-ca81e901a224,carrier_1,2-Day,2023-07-07 14:46:19,2023-07-07 16:57:50
 3a1ab41c-b16d-420f-97a0-011846d4bf26,69d3627e-214f-45ec-ab7e-6d6bd05e087a,038b1d5d-3abc-41a6-8d30-be50fe040d8c,2024-10-13 09:59:03,a5a5b88b-a963-4a90-bb50-ca81e901a224,carrier_3,Express,2024-10-14 09:48:01,2024-10-14 12:01:43
 2241f797-c535-4328-bee1-5e738e05d23f,7fb85e55-94da-4c87-80f6-c287c1c98602,257d97fd-873f-40e1-aee7-bec83ba04aec,2023-01-26 18:41:02,d174d4ba-bf6d-4c5b-ad2c-0d4b02068972,carrier_3,Standard,2023-01-31 16:32:46,2023-02-02 11:15:08
