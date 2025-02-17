@@ -64,8 +64,8 @@ def load_csv_to_bq(bucket_name, file_name, dataset_id, table_id, schema, max_bad
         
         # Identify columns to fix timestamps and session metadata
         try:
-            start_idx = header.index("visit_start_time_et")
-            end_idx = header.index("visit_end_time_et")
+            start_idx = header.index("visit_start_time")
+            end_idx = header.index("visit_end_time")
         except ValueError as e:
             raise ValueError("Required timestamp columns not found in the header.") from e
 
@@ -127,7 +127,7 @@ def main():
             "schema": [
                 bigquery.SchemaField("visit_id", "STRING"),
                 bigquery.SchemaField("user_id", "STRING"),
-                bigquery.SchemaField("registered_at_et", "TIMESTAMP"),
+                bigquery.SchemaField("registered_at", "TIMESTAMP"),
             ],
             "process_csv": False,
             "max_bad_records": 0,
@@ -137,8 +137,8 @@ def main():
             "table_id": "sessions",
             "schema": [
                 bigquery.SchemaField("visit_id", "STRING"),
-                bigquery.SchemaField("visit_start_time_et", "TIMESTAMP"),
-                bigquery.SchemaField("visit_end_time_et", "TIMESTAMP"),
+                bigquery.SchemaField("visit_start_time", "TIMESTAMP"),
+                bigquery.SchemaField("visit_end_time", "TIMESTAMP"),
                 bigquery.SchemaField("device_type", "STRING"),
                 bigquery.SchemaField("browser", "STRING"),
                 bigquery.SchemaField("pageview_count", "INT64"),
@@ -157,12 +157,12 @@ def main():
                 bigquery.SchemaField("order_id", "STRING"),
                 bigquery.SchemaField("visit_id", "STRING"),
                 bigquery.SchemaField("user_id", "STRING"),
-                bigquery.SchemaField("order_created_at_et", "TIMESTAMP"),
+                bigquery.SchemaField("order_created_at", "TIMESTAMP"),
                 bigquery.SchemaField("location_id", "STRING"),
                 bigquery.SchemaField("shipping_carrier", "STRING"),
                 bigquery.SchemaField("shipping_method", "STRING"),
                 bigquery.SchemaField("estimated_delivery_date", "TIMESTAMP"),
-                bigquery.SchemaField("delivered_at_et", "TIMESTAMP"),
+                bigquery.SchemaField("delivered_at", "TIMESTAMP"),
             ],
             "process_csv": False,
             "max_bad_records": 0,
