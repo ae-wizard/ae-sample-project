@@ -45565,3 +45565,50 @@ bb021e88-4f3a-4d73-9f26-bc4e7acdfea2,2026-10-30 04:47:58,2026-10-30 05:00:58,mob
 3532e1c8-cdd8-4907-8643-84acc4dd3bf1,2026-10-30 06:08:34,2026-10-30 06:33:34,mobile,mobile safari,4,paid,paid social,twitter,"{'visit_id': '3532e1c8-cdd8-4907-8643-84acc4dd3bf1', 'utm_campaign': None, 'utm_keyword': None}"
 4ccaab34-4013-4cc2-95f8-96935bf6bc93,2026-10-30 04:34:21,2026-10-30 04:41:21,desktop,safari,9,paid,paid search,google,"{'visit_id': '4ccaab34-4013-4cc2-95f8-96935bf6bc93', 'utm_campaign': 'google_campaign_6', 'utm_keyword': 'google_keyword_4'}"
 8e9f4829-bc21-425c-9744-155bde458932,2026-10-30 22:07:44,2026-10-30 22:20:44,desktop,safari,4,paid,paid search,google,"{'visit_id': '8e9f4829-bc21-425c-9744-155bde458932', 'utm_campaign': 'google_campaign_1', 'utm_keyword': 'google_keyword_4'}"
+030eadcc-7e26-4f7b-8e21-b601666dafee,2026-10-31 18:44:14,2026-10-31 18:56:14,mobile,mobile chrome,4,unpaid,direct,direct,
+a58c4d33-0b42-4cd8-99c9-9e32dd87c30f,2026-10-31 11:54:43,2026-10-31 12:17:43,desktop,edge,10,paid,paid search,google,"{'visit_id': 'a58c4d33-0b42-4cd8-99c9-9e32dd87c30f', 'utm_campaign': 'google_campaign_8', 'utm_keyword': 'google_keyword_6'}"
+67a47b8f-4b61-4822-93f6-fc9a4d7195d2,2026-10-31 21:22:24,2026-10-31 21:27:24,desktop,edge,9,unpaid,direct,direct,
+f812446e-640a-45f0-bc3e-03348947431a,2026-10-31 13:33:09,2026-10-31 13:41:09,mobile,mobile safari,5,paid,paid social,tiktok,"{'visit_id': 'f812446e-640a-45f0-bc3e-03348947431a', 'utm_campaign': None, 'utm_keyword': None}"
+a1de48ec-05a3-497a-8afb-414d4666c281,2026-10-31 02:23:52,2026-10-31 02:33:52,desktop,edge,5,unpaid,direct,direct,
+d2917a9e-506a-46c6-9550-3d7d08986d02,2026-10-31 09:08:56,2026-10-31 09:10:56,mobile,mobile chrome,7,paid,paid search,google,"{'visit_id': 'd2917a9e-506a-46c6-9550-3d7d08986d02', 'utm_campaign': 'google_campaign_8', 'utm_keyword': 'google_keyword_8'}"
+85bb0ca7-09ed-4da7-aeb2-4609aa28fa73,2026-10-31 06:54:44,2026-10-31 06:55:44,desktop,safari,10,unpaid,direct,direct,
+32c06306-ad00-45e5-b631-6b9dbdeb6466,2026-10-31 17:55:13,2026-10-31 18:10:13,mobile,mobile safari,10,paid,paid social,instagram,"{'visit_id': '32c06306-ad00-45e5-b631-6b9dbdeb6466', 'utm_campaign': None, 'utm_keyword': None}"
+2aa11324-fbba-4259-a521-939eb78c5ad6,2026-10-31 05:08:58,2026-10-31 05:37:58,mobile,mobile safari,2,unpaid,direct,direct,
+2b5e61bd-f7c3-4b87-aa14-0dea111e2380,2026-10-31 06:46:45,2026-10-31 07:05:45,mobile,mobile safari,7,unpaid,direct,direct,
+132c6bc9-b37b-4c9a-8d4e-1ed679c3f7bc,2026-10-31 12:23:51,2026-10-31 12:29:51,desktop,chrome,9,unpaid,organic search,bing,
+3796f01f-b764-48cc-8aec-97784cb098a3,2026-10-31 02:15:31,2026-10-31 02:22:31,mobile,mobile safari,8,paid,paid search,google,"{'visit_id': '3796f01f-b764-48cc-8aec-97784cb098a3', 'utm_campaign': 'google_campaign_10', 'utm_keyword': 'google_keyword_8'}"
+4ddad5ae-293c-4332-a9c5-810dce260f11,2026-10-31 18:25:57,2026-10-31 18:31:57,desktop,chrome,4,paid,paid search,google,"{'visit_id': '4ddad5ae-293c-4332-a9c5-810dce260f11', 'utm_campaign': 'google_campaign_9', 'utm_keyword': 'google_keyword_2'}"
+d09e7aa6-31d7-4eaf-82ff-535f2466bffb,2026-10-31 07:30:05,2026-10-31 07:52:05,desktop,safari,4,unpaid,direct,direct,
+9b5c9b26-9ad1-4fc9-a803-bfdba1582b2a,2026-10-31 05:38:58,2026-10-31 05:54:58,mobile,mobile safari,2,paid,paid social,reddit,"{'visit_id': '9b5c9b26-9ad1-4fc9-a803-bfdba1582b2a', 'utm_campaign': None, 'utm_keyword': None}"
+d9fec8a4-30e5-4dd2-a3e0-251881226591,2026-10-31 02:41:30,2026-10-31 02:52:30,desktop,edge,6,unknown,unknown,unknown,
+f7e66030-3a8e-4fff-a2e5-c99f8208cf58,2026-10-31 15:30:34,2026-10-31 15:39:34,desktop,safari,8,unpaid,organic search,google,
+a2dd9137-9e51-42f6-b9ae-8dd83a1ef7bf,2026-10-31 01:45:37,2026-10-31 02:08:37,mobile,mobile safari,4,unpaid,organic social,facebook,
+d753e93d-34af-4f7c-90da-377f65664394,2026-10-31 06:27:50,2026-10-31 06:30:50,mobile,mobile chrome,6,paid,paid social,reddit,"{'visit_id': 'd753e93d-34af-4f7c-90da-377f65664394', 'utm_campaign': None, 'utm_keyword': None}"
+c5eef2fd-000b-4953-9e84-5cf75a8046f4,2026-10-31 04:38:39,2026-10-31 04:53:39,desktop,safari,7,unpaid,direct,direct,
+e088d32d-4ea2-432d-93ea-88e3362f7614,2026-10-31 03:27:36,2026-10-31 03:40:36,mobile,mobile safari,3,unpaid,direct,direct,
+57b0c3c1-d539-4eaa-b382-0b7f37b30e48,2026-10-31 23:11:11,2026-10-31 23:30:11,mobile,mobile safari,9,unpaid,direct,direct,
+e9889384-5f6a-4241-97f3-e088940ac596,2026-10-31 20:02:17,2026-10-31 20:03:17,desktop,chrome,9,paid,paid search,google,"{'visit_id': 'e9889384-5f6a-4241-97f3-e088940ac596', 'utm_campaign': 'google_campaign_7', 'utm_keyword': 'google_keyword_4'}"
+8d927061-05ac-45f9-aa9f-0a4b88d21383,2026-10-31 16:35:51,2026-10-31 16:39:51,mobile,mobile safari,9,paid,paid search,google,"{'visit_id': '8d927061-05ac-45f9-aa9f-0a4b88d21383', 'utm_campaign': 'google_campaign_2', 'utm_keyword': 'google_keyword_3'}"
+decbac15-103b-4ed9-9973-e2e629bd1ec4,2026-10-31 22:36:48,2026-10-31 22:47:48,mobile,mobile safari,7,paid,paid search,bing,"{'visit_id': 'decbac15-103b-4ed9-9973-e2e629bd1ec4', 'utm_campaign': 'bing_campaign_6', 'utm_keyword': 'bing_keyword_3'}"
+aa871bac-b8dc-4a83-a51d-21cfa223f182,2026-10-31 21:41:27,2026-10-31 21:43:27,mobile,mobile safari,2,unpaid,direct,direct,
+19afd6c1-a892-4098-891e-80dbd9ee1c3e,2026-10-31 19:47:51,2026-10-31 20:03:51,desktop,edge,4,paid,paid social,instagram,"{'visit_id': '19afd6c1-a892-4098-891e-80dbd9ee1c3e', 'utm_campaign': None, 'utm_keyword': None}"
+43bb0734-55cc-4ef9-9963-2ad8095dbb41,2026-10-31 07:03:54,2026-10-31 07:26:54,desktop,edge,2,unpaid,direct,direct,
+d1635a21-7214-49e6-94d5-19043cce7178,2026-10-31 12:25:06,2026-10-31 12:35:06,mobile,mobile chrome,3,paid,paid search,google,"{'visit_id': 'd1635a21-7214-49e6-94d5-19043cce7178', 'utm_campaign': 'google_campaign_5', 'utm_keyword': 'google_keyword_9'}"
+2b5b4c73-e0ef-49e9-b61f-afaa0481e039,2026-10-31 11:01:38,2026-10-31 11:15:38,mobile,mobile chrome,5,paid,paid social,instagram,"{'visit_id': '2b5b4c73-e0ef-49e9-b61f-afaa0481e039', 'utm_campaign': None, 'utm_keyword': None}"
+c0aab529-a292-4beb-a71d-69febbe4e088,2026-10-31 15:33:12,2026-10-31 15:42:12,desktop,safari,5,unpaid,direct,direct,
+512d7bed-c528-41f7-865e-ad580105702c,2026-10-31 15:16:33,2026-10-31 15:30:33,mobile,mobile chrome,10,unpaid,organic search,google,
+835a6fe3-3e45-4af3-b89f-4df36988cc5d,2026-10-31 00:25:47,2026-10-31 00:32:47,desktop,safari,2,paid,paid social,reddit,"{'visit_id': '835a6fe3-3e45-4af3-b89f-4df36988cc5d', 'utm_campaign': None, 'utm_keyword': None}"
+fdedddd4-be4d-4bfa-bf71-0430319e76a1,2026-10-31 07:25:03,2026-10-31 07:45:03,mobile,mobile chrome,8,paid,paid social,facebook,"{'visit_id': 'fdedddd4-be4d-4bfa-bf71-0430319e76a1', 'utm_campaign': None, 'utm_keyword': None}"
+21c89633-f5b1-433a-a02e-abcf03b85e30,2026-10-31 11:28:41,2026-10-31 11:56:41,mobile,mobile chrome,8,unpaid,organic search,google,
+ad4b2b61-189d-41c0-9224-b9fa899be174,2026-10-31 08:20:23,2026-10-31 08:23:23,mobile,mobile chrome,5,paid,paid social,facebook,"{'visit_id': 'ad4b2b61-189d-41c0-9224-b9fa899be174', 'utm_campaign': None, 'utm_keyword': None}"
+8d9621f3-95a1-4f70-8805-fe47fef203bc,2026-10-31 10:05:08,2026-10-31 10:21:08,mobile,mobile safari,3,unpaid,direct,direct,
+9dda15be-5c50-4ebc-84a2-461f2f135507,2026-10-31 04:06:48,2026-10-31 04:15:48,mobile,mobile chrome,3,unpaid,organic search,google,
+e4dae01b-ba69-499c-90b6-5ba46426da86,2026-10-31 14:29:24,2026-10-31 14:51:24,desktop,safari,1,unpaid,referral,website3.com,
+b570dd66-1115-4ee8-a8da-9892ff2b3b2e,2026-10-31 08:43:28,2026-10-31 08:56:28,mobile,mobile safari,2,paid,paid social,tiktok,"{'visit_id': 'b570dd66-1115-4ee8-a8da-9892ff2b3b2e', 'utm_campaign': None, 'utm_keyword': None}"
+0a2bdcdb-c442-4ff9-85e6-56b8a30ba92e,2026-10-31 21:42:58,2026-10-31 21:44:58,desktop,edge,7,paid,paid search,google,"{'visit_id': '0a2bdcdb-c442-4ff9-85e6-56b8a30ba92e', 'utm_campaign': 'google_campaign_7', 'utm_keyword': 'google_keyword_3'}"
+cf8d0403-351f-4347-a737-f5979ceb1e8e,2026-10-31 00:24:08,2026-10-31 00:47:08,mobile,mobile chrome,1,paid,paid social,instagram,"{'visit_id': 'cf8d0403-351f-4347-a737-f5979ceb1e8e', 'utm_campaign': None, 'utm_keyword': None}"
+9d770fac-0d53-4828-96cc-62b778847ce4,2026-10-31 02:47:59,2026-10-31 02:57:59,mobile,mobile chrome,3,unpaid,organic social,instagram,
+3a2d7727-2b7c-4d0b-a5b2-a6e93513efea,2026-10-31 15:33:48,2026-10-31 15:42:48,desktop,chrome,8,unpaid,direct,direct,
+99f62cdb-02b3-48e4-bc7e-a89db44055bb,2026-10-31 21:59:00,2026-10-31 22:11:00,mobile,mobile chrome,3,unknown,unknown,unknown,
+612165f8-ad1a-4e86-a183-219c1ab93756,2026-10-31 01:26:40,2026-10-31 01:47:40,mobile,mobile safari,1,unknown,unknown,unknown,
+759fc21a-9e8b-4db2-8d47-bc6a4af62883,2026-10-31 14:50:12,2026-10-31 14:55:12,desktop,chrome,2,paid,paid social,tiktok,"{'visit_id': '759fc21a-9e8b-4db2-8d47-bc6a4af62883', 'utm_campaign': None, 'utm_keyword': None}"
